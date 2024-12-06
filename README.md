@@ -67,7 +67,7 @@ pnpm run dev
 │   └── config.ts
 ├── public/
 │   ├── favicon.svg
-│   └── profile.webp
+│   └── harish_img_technical_specialist.jpeg
 │   └── social_img.webp
 ├── astro.config.mjs
 ├── tailwind.config.cjs
