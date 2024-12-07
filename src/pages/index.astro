@@ -13,26 +13,22 @@ const last_posts = posts.slice(0, 3);
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
     <div class="text-5xl font-bold">I'm Harish</div>
-    <div class="text-3xl py-3 font-bold">Technical Implementation | Web Dev | Tech Support</div>
+    <div class="text-xl pt-3 italic">Yours next</div>
+    <div class="text-3xl font-bold">Implementation Specialist | Tech Support</div>
     <div>
       <b>
-        Ex-Founder/Freelancer of <a href="https://techifize.com" target="_blank">Techifize.com</a>
+        Ex-Founder & Freelance Web Developer at <a href="https://techifize.com" target="_blank">Techifize.com</a>
       </b>
     </div>
-    <div class="py-2">
-      <text class="text-lg">
-        <b>Tech + Empathy,</b> From code to clients, I ❤️ bridging the gap between technology and people.
-      </text>
-    </div>
     <div class="mt-8">
-      <p class="btn"> Let's connect!</p>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
+      <p class="btn pointer-events-none">My Socials</p>
+      <a href="https://www.linkedin.com/in/007harish/" target="_blank" class="btn btn-outline ml-5">
         LinkedIn
       </a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
+      <a href="https://github.com/harishcalvin" target="_blank" class="btn btn-outline ml-5">
         GitHub
       </a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
+      <a href="https://x.com/harish_calvin" target="_blank" class="btn btn-outline ml-5">
         Twitter
       </a>
     </div>
@@ -44,32 +40,36 @@ const last_posts = posts.slice(0, 3);
 
   <HorizontalCard
     title="Cloud Kitchen Website"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    img="/cloud-kitchen-website.gif"
+    desc="Landing page for a Cloud Kitchen"
+    url="https://helpful-zuccutto-9fef10.netlify.app/"
     badge="HTML/CSS/JS"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Inventory Management"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    img="/inventory_management_project_harish.jpg"
+    desc="Add/Edit/Archive/Restore products with or without variants. Generate bills. View sales history. View archived (soft_deleted) products and restore."
+    url="https://github.com/harishcalvin/inventory-management"
     badge="Rails"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Project Management"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    img="/project_management_project_harish.png"
+    desc="Add/Edit/Archive/Restore projects. Track time and date"
+    url="https://github.com/harishcalvin/project_management"
     badge="Rails"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Blog - Here’s my Story</div>
   </div>
-
+  <div class="py-2">
+    <text class="text-lg">
+      <b>Tech + Empathy,</b> From code to clients, I ❤️ bridging the gap between technology and people.
+    </text>
+  </div>
   {
     last_posts.map((post) => (
       <>
@@ -80,6 +80,7 @@ const last_posts = posts.slice(0, 3);
           url={"/blog/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
+          tags={post.data.tags}
         />
         <div class="divider my-0" />
       </>
