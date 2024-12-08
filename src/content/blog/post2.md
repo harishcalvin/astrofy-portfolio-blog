@@ -7,13 +7,13 @@ badge: "40 sec read"
 tags: ["experience"]
 ---
 
-Yeah, that's me! Doing (showing off) a yoga pose. 😄
+Yeah, that's me! <del> Doing </del> Showing off a yoga pose. 😄
 
 So, why me?
 
 **Tech + Empathy**
 
-At Techifize.com, I provided tailored solutions to clients, especially non-tech customers, simplifying complex concepts and ensuring they felt confident and supported every step of the way. Whether it’s solving a technical issue or guiding users, trouble-shooting or even just a simple chat to help them understand, empathy is my way, which i enjoy doing.
+At Techifize.com, I provided tailored solutions to clients, especially non-tech customers, digitalizing inefficient, old-school processes, ensuring they feel confident and supported every step of the way. Whether it’s solving a technical issue, guiding their team-members, troubleshooting or even just a simple chat to help them understand about apps—empathy is my way.
 
 **Hands-on + Customer-Centric**
 
