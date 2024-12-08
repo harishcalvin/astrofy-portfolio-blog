@@ -5,7 +5,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Side Projects</div>
+    <div class="text-3xl w-full font-bold mb-5">Portfolio Work</div>
   </div>
   <HorizontalCard
     title="Inventory Management"
@@ -22,7 +22,23 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     url="https://github.com/harishcalvin/project_management"
     badge="Rails"
   />
-
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Todo app"
+    img="/todo_project_harish.png"
+    desc="Simple todo app to add/edit/delete tasks, with 2 modes light/dark UI from frontendmentor.io"
+    url="https://harishcalvin.github.io/todo/"
+    badge="HTML/CSS/JS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+  title="NYC News app"
+  img="/nyc_news_api_project_harish.png"
+  desc="Simple news app using NYT API"
+  url="https://news-app-nytimes-api-js.netlify.app/"
+  badge="HTML/CSS/JS"
+/>
+  <div class="divider my-0"></div>
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Client Projects</div>
   </div>
@@ -50,4 +66,38 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     url="https://spectra-techifize-demo.netlify.app/"
     badge="React.JS/TailwindCSS"
   />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Menu Site"
+    img="/menu_site_project_harish.gif"
+    desc="Built a menu site for a small restaurant (only visible in Mobile view, press ctrl+shift+i to view)"
+    url="https://teal-pudding-a76cc3.netlify.app/"
+    badge="React.JS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Beauty Salon Website"
+    img="/salon_website_project_harish.gif"
+    desc="Landing page for a Beauty Salon"
+    url="https://mermaidsglow.in/"
+    badge="React.JS"
+  />
+  <div class="divider my-0"></div>
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Open Source Contributions</div>
+  </div>
+  <HorizontalCard
+    title="Excalidraw-analytics (merged)"
+    desc="2 PRs merged: Add OG tags and favicon"
+    url="https://github.com/excalidraw/excalidraw-analytics/pulls?q=is%3Apr+is%3Aclosed+author%3Aharishcalvin"
+    badge="HTML/CSS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ToolJet (waiting for review)"
+    desc="4 issues fixed and raised PR"
+    url="https://github.com/ToolJet/ToolJet/pulls/harishcalvin"
+    badge="HTML/CSS/JS/Typescript"
+  />
+  <div class="divider my-0"></div>
 </BaseLayout>
